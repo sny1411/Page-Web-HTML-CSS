@@ -3,8 +3,7 @@ h1 {
     text-decoration: underline;
 }
 #imgGaletteSaucisse {
-    max-width: 70%;
-	height: auto;
+    border: 5px solid black;
 }
 #partOne {
     list-style: none;
@@ -16,8 +15,31 @@ h2{
     text-decoration: underline;
 }
 p{
-    margin-right: 150px;
+    width: 500px;
+    height: 270px;
     border: 2px solid black;
-    padding-bottom: 150px;
+    font-size: 1.2em;
 
+}
+body
+{
+ 
+  background-image: url("images/fond.jpg");
+  background-attachment: fixed, scroll;
+  background-repeat: no-repeat, repeat-y;
+  background-size: 150%;
+
+}
+#body
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1500px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color:wheat;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
