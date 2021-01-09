@@ -11,10 +11,13 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
 }
+img{
+    max-width: auto;
+}
 h2{
     text-decoration: underline;
 }
-p{
+#partOne p{
     width: 500px;
     height: 270px;
     border: 2px solid black;
@@ -38,8 +41,13 @@ body
     margin-left: 15%;
     margin-right: 15%;
     background-color:wheat;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border: 2px solid black;
+}
+#cadre{
+    border: 2px solid black;
+}
+#partTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
