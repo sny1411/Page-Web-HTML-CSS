@@ -29,7 +29,6 @@ h1 {
     margin-top: 50px;
 }
 #partOne p{
-    font-family: 'RowisHandwriting';
     height: 300px;
     width: 400px;
 }
@@ -55,7 +54,7 @@ body
 {
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 1500px;
+    padding-bottom: 5px;
     margin-left: 10%;
     margin-right: 10%;
     background-color:wheat;
@@ -70,7 +69,6 @@ body
     width: 500px;
 }
 #partTwo{
-    font-family: 'RowisHandwriting';
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -152,3 +150,15 @@ body
       transition-duration: 800ms;
       background-color: rgb(239, 78, 253);
   }
+#video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+footer {
+    border-top: 2px solid black;
+}
+section{
+    font-family: 'RowisHandwriting';
+}
