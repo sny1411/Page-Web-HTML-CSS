@@ -71,29 +71,29 @@ body
     justify-content: space-around;
 }
 .animation{
-    margin-top: 65px;
+    margin-top: 45px;
     border: 1px solid black;
-    background-color: rgb(230, 78, 222);
+    background-color: rgb(252, 32, 241);
     position: static;
     top: 50%;
     right: 1px;
-    max-width: 150px;
+    max-width: 100px;
     max-height: 20%;
     margin-right: 0px;
     padding: 20px 10px 20px 10px;
-    animation: animationFrames ease-in-out 3s;
+    animation: animationFrames ease-in-out 4s;
     animation-iteration-count: infinite;
     transform-origin: 50% 50%;
-    -webkit-animation: animationFrames ease-in-out 3s;
+    -webkit-animation: animationFrames ease-in-out 4s;
     -webkit-animation-iteration-count: infinite;
     -webkit-transform-origin: 50% 50%;
-    -moz-animation: animationFrames ease-in-out 3s;
+    -moz-animation: animationFrames ease-in-out 4s;
     -moz-animation-iteration-count: infinite;
     -moz-transform-origin: 50% 50%;
-    -o-animation: animationFrames ease-in-out 3s;
+    -o-animation: animationFrames ease-in-out 4s;
     -o-animation-iteration-count: infinite;
     -o-transform-origin: 50% 50%;
-    -ms-animation: animationFrames ease-in-out 3s;
+    -ms-animation: animationFrames ease-in-out 4s;
     -ms-animation-iteration-count: infinite;
     -ms-transform-origin: 50% 50%;
   }
@@ -141,4 +141,10 @@ body
     100% {
       -ms-transform: rotate(0deg) ;
     }
+  }
+  .animation:hover{
+      transform: scale(1.15);
+      transition-property: background-color;
+      transition-duration: 800ms;
+      background-color: orange;
   }
