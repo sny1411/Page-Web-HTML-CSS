@@ -10,6 +10,13 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face{
+    font-family: 'Revans-Medium';
+    src: url('polices/revans/Revans-Medium.ttf') format('truetype'),
+    url('polices/revans/Revans-Medium.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 h1 {
     font-family: 'PottaOne-Regular';
@@ -36,6 +43,7 @@ img{
     max-width: 80%;
 }
 h2{
+    font-family: 'Revans-Medium';
     text-decoration: underline;
 }
 #partOne p{
