@@ -40,10 +40,7 @@ h2{
     text-decoration: underline;
 }
 #partOne p{
-
-    /*border: 2px solid black;*/
     font-size: 1.2em;
-
 }
 body
 {
@@ -73,3 +70,75 @@ body
     flex-direction: row;
     justify-content: space-around;
 }
+.animation{
+    margin-top: 65px;
+    border: 1px solid black;
+    background-color: rgb(230, 78, 222);
+    position: static;
+    top: 50%;
+    right: 1px;
+    max-width: 150px;
+    max-height: 20%;
+    margin-right: 0px;
+    padding: 20px 10px 20px 10px;
+    animation: animationFrames ease-in-out 3s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    -webkit-animation: animationFrames ease-in-out 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: animationFrames ease-in-out 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-transform-origin: 50% 50%;
+    -o-animation: animationFrames ease-in-out 3s;
+    -o-animation-iteration-count: infinite;
+    -o-transform-origin: 50% 50%;
+    -ms-animation: animationFrames ease-in-out 3s;
+    -ms-animation-iteration-count: infinite;
+    -ms-transform-origin: 50% 50%;
+  }
+  
+  @keyframes animationFrames{
+    0% {
+      transform: rotate(360deg) ;
+    }
+    100% {
+      transform: rotate(0deg) ;
+    }
+  }
+  
+  @-moz-keyframes animationFrames{
+    0% {
+      -moz-transform: rotate(360deg) ;
+    }
+    100% {
+      -moz-transform:  rotate(0deg) ;
+    }
+  }
+  
+  @-webkit-keyframes animationFrames {
+    0% {
+      -webkit-transform: rotate(360deg) ;
+    }
+    100% {
+      -webkit-transform: rotate(0deg) ;
+    }
+  }
+  
+  @-o-keyframes animationFrames {
+    0% {
+      -o-transform: rotate(360deg) ;
+    }
+    100% {
+      -o-transform: rotate(0deg) ;
+    }
+  }
+  
+  @-ms-keyframes animationFrames {
+    0% {
+      -ms-transform: rotate(360deg) ;
+    }
+    100% {
+      -ms-transform: rotate(0deg) ;
+    }
+  }
