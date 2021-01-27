@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'RowisHandwriting';
-    src: url('polices/RowisHandwriting.ttf') format('truetype');
+    src: url('../polices/RowisHandwriting.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'PottaOne-Regular';
-    src: url('polices/PottaOne-Regular.ttf') format('truetype');
+    src: url('../polices/PottaOne-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
     font-family: 'Revans-Medium';
-    src: url('polices/revans/Revans-Medium.ttf') format('truetype'),
-    url('polices/revans/Revans-Medium.otf') format('otf');
+    src: url('../polices/revans/Revans-Medium.ttf') format('truetype'),
+    url('../polices/revans/Revans-Medium.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -52,7 +52,7 @@ h2{
 body
 {
  
-  background-image: url("images/fond.jpg");
+  background-image: url("../images/fond.jpg");
   background-attachment: fixed, scroll;
   background-repeat: no-repeat, repeat-y;
   background-size: 150%;
