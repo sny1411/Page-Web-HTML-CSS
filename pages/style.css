@@ -24,7 +24,7 @@ h1 {
     text-decoration: underline;
     font-size: 2.5em;
 }
-#imgGaletteSaucisse {
+#imgPartOne {
     border: 5px solid black;
 }
 #partOne {
@@ -69,11 +69,9 @@ body
     border: 2px solid black;
 }
 #cadre1{
-    border: 2px solid black;
     padding-right: 10px;
 }
 #cadre2{
-    border: 2px solid black;
     width: 500px;
 }
 #partTwo{
@@ -169,4 +167,13 @@ footer {
 }
 section{
     font-family: 'RowisHandwriting';
+}
+#btnRetour a{
+  color: black;
+  font-family: "Revans-Medium";
+  font-size: 1.2em;
+}
+#btnRetour a:hover{
+  color: red;
+  transition-duration: 800ms;
 }
